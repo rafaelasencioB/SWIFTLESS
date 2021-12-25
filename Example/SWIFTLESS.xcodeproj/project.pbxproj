@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05DF776D669C19D3155D49F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		05DF776D669C19D3155D49F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3ACAB03D6CF8BCD8698D8150 /* Pods_SWIFTLESS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTLESS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EB884319DA9A39A868C102 /* Pods-SWIFTLESS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTLESS_Example.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTLESS_Example/Pods-SWIFTLESS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SWIFTLESS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTLESS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E0BD0F3684B39246CB49323 /* Pods_SWIFTLESS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTLESS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FCC5E38E7130948A6AE488C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FCC5E38E7130948A6AE488C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		733A8E652334D3B845DA9D79 /* Pods-SWIFTLESS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTLESS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTLESS_Tests/Pods-SWIFTLESS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B97FADCBC28C4505150544A3 /* SWIFTLESS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWIFTLESS.podspec; path = ../SWIFTLESS.podspec; sourceTree = "<group>"; };
+		B97FADCBC28C4505150544A3 /* SWIFTLESS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWIFTLESS.podspec; path = ../SWIFTLESS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEAB3F6B0CEDA8F084259ABC /* Pods-SWIFTLESS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTLESS_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTLESS_Tests/Pods-SWIFTLESS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB9A112DEA23BE7F8A08B707 /* Pods-SWIFTLESS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTLESS_Example.release.xcconfig"; path = "Target Support Files/Pods-SWIFTLESS_Example/Pods-SWIFTLESS_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				733A8E652334D3B845DA9D79 /* Pods-SWIFTLESS_Tests.debug.xcconfig */,
 				CEAB3F6B0CEDA8F084259ABC /* Pods-SWIFTLESS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
